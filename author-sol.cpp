@@ -22,16 +22,16 @@ int main() {
 		sort(a.begin(), a.end());
 		/* 
 			mx1 -> when the sequence consists of both positive and negative numbers
-					-> used when there two or more negative numbers
-					-> applying the formula would produce a positive value
-					-> least negative numbers (first two elements)
+				-> used when there two or more negative numbers
+				-> applying the formula would produce a positive value
+				-> least negative numbers (first two elements)
 					
 		  	mx2 -> when the sequence consists of all positive numbers
-					-> the two largest elements would produce the maximum value
+				-> the two largest elements would produce the maximum value
 					
 			mx3 -> when the sequence consists of negative numbers and 0 as its maximum
-					-> a[n - 1] = 0, a[0] = least negative number
-					-> applying the formula will turn it into a positive number (maximum value)
+				-> a[n - 1] = 0, a[0] = least negative number
+				-> applying the formula will turn it into a positive number (maximum value)
 		*/
 		long long mx1 = GetAnswer(a[1], a[0]);
 		long long mx2 = GetAnswer(a[n - 1], a[n - 2]);
