@@ -26,7 +26,7 @@ int main() {
 					-> applying the formula would produce a positive value
 					-> least negative numbers (first two elements)
 					
-		  mx2 -> when the sequence consists of all positive numbers
+		  	mx2 -> when the sequence consists of all positive numbers
 					-> the two largest elements would produce the maximum value
 					
 			mx3 -> when the sequence consists of negative numbers and 0 as its maximum
